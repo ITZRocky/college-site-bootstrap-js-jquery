@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sai Vidya Institute of Technology</title>
+
+    <link rel="icon" type="icon" href="icons/logo.png">
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      
+      <nav class="navbar navbar-expand-sm navbar-dark  bg-dark bg-opacity-50 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SVIT</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+          
+            <div class="navbar-nav">
+              <a class="nav-link active me-1" aria-current="page" href="#"
+                >Home</a
+              >
+              <a class="nav-link me-1" href="#dept">Deparments</a>
+              <a class="nav-link me-1" href="#eve">Events</a>
+              <a class="nav-link me-1" href="#about">About Us</a>
+              <a class="nav-link me-1" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div id="liveAlertPlaceholder" class="alert mt-5 fixed-top alert-danger collapse" style="z-index: -10 ;" >
+          
+          &#128517; Oops, there's nothing here !
+        </div>
+      </nav>
+      
+
+   
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide opacity-75"
+        data-bs-ride="carousel"
+        style="margin-top: 57px;"
+      
+      >
+      
+    
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/sai-1.jpeg"
+              class="d-block w-100"
+              alt="..." 
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/sai-2.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/sai-3.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+  
+
+      <section class="container-fluid" id="dept">
+        <div class="container ">
+        <h1 class="text-success pt-5 text-center text">
+          Department Details
+        </h1>
+        <hr class="hr1"/>
+
+        <div class="row gx-0  justify-content-between text-light " >
+        
+          <div class="card my-card" >
+            <img
+              src="images/Code typing-bro.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center text-success">CSE Department</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aperiam officiis optio sit impedit nesciunt sapiente quisquam soluta pariatur! Rerum consectetur officia, aperiam quam quidem officiis eveniet corrupti laborum voluptatum.
+              </p>
+             
+              <button type="button" class="btn btn-success butt " id="liveAlertBtn1">Explore more</button>
+            </div>
+          </div>
+          <div class="card my-card" >
+            <img
+              src="images/Code review-cuate.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center text-success">ISE Department</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos inventore dolores repellendus, nobis suscipit cupiditate ex voluptates, dolore soluta saepe modi iure illo quibusdam exercitationem assumenda. Assumenda adipisci voluptate totam?
+              </p>
+              <button type="button" class="btn btn-success butt" id="liveAlertBtn2">Explore more</button>
+            </div>
+          </div>
+          <div class="card my-card" >
+            <img
+              src="images/Printed circuit board-pana.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center text-success">ECE Department</h5>
+              <p class="card-text">
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, amet veritatis vitae, sequi nemo tempore necessitatibus et vel iusto consectetur dignissimos quam voluptatibus dolorum magni soluta? Neque aut dolorem commodi!
+              </p>
+              <button type="button" class="btn btn-success butt" id="liveAlertBtn3">Explore more</button>
+            </div>
+          </div>
+          <div class="card my-card" >
+            <img
+              src="images/Printed circuit board-rafiki.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center text-success ">EEE Department</h5>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias nulla consequuntur esse commodi tempora quisquam corrupti sequi vel temporibus, necessitatibus, alias ipsa qui doloremque tempore rem aliquid? Quod, dolore vitae!
+              </p>
+              <button type="button" class="btn btn-success butt" id="liveAlertBtn4">Explore more</button>
+            </div>
+          </div>
+          <div class="card my-card" >
+            <img
+              src="images/Processing-amico.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center text-success">MEC Department</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque perspiciatis quidem consequuntur, sequi rem eligendi? Ut, similique necessitatibus. Labore nam commodi sed sint, rerum eos repellat quisquam consectetur. Cum, harum.
+              </p>
+              <button type="button" class="btn btn-success butt" id="liveAlertBtn5">Explore more</button>
+            </div>
+          </div>
+          <div class="card my-card " >
+            <img
+              src="images/Construction-amico.svg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center text-success">CIVIL Department</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga esse sed est voluptas doloribus expedita voluptatibus repudiandae harum quidem maiores, repellat, excepturi dolorum at ratione architecto. Quam saepe amet minima.
+              </p>
+              <button type="button" class="btn btn-success butt" id="liveAlertBtn6">Explore more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+
+
+
+      <section class="container event" id="eve">
+        <div class="container ">
+          <h1 class="text-warning pt-5 text-center text">
+            Events
+          </h1>
+          <hr class="hr4"/>
+  
+          <div class="row gx-0  justify-content-between text-light " style="margin-top: 30px;">
+          
+            <div class="card my-card1" >
+              <img
+                src="images/event-images/Pair programming-amico.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning">Code Combat</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aperiam officiis optio sit impedit nesciunt sapiente quisquam soluta pariatur! Rerum consectetur officia, aperiam quam quidem officiis eveniet corrupti laborum voluptatum.
+                </p>
+               
+                <button type="button" class="btn btn-warning " id="liveToastBtn1">Enroll now</button>
+            
+                <!-- 
+                <button type="button" class="btn btn-primary " id="liveAlertBtn">Enroll now</button> -->
+
+                
+
+
+                <div class="toast align-items-center text-white bg-dark border-5 border-success position-fixed bottom-0 end-0 p-3 " style="z-index: 11;" role="alert" id="liveToast1"  aria-live="assertive" aria-atomic="true">
+                  <div class="d-flex">
+                    <div class="toast-body">
+                      <img src="icons/confirm.ico" style="width: 40px;margin: 0 0 0 -20px;" alt="">
+                      Hello, world! This is a toast message.
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                </div>
+   
+              </div>
+            </div>
+            <div class="card  my-card1" >
+              <img
+                src="images/event-images/Rock band-amico.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning">Music Marathon</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos inventore dolores repellendus, nobis suscipit cupiditate ex voluptates, dolore soluta saepe modi iure illo quibusdam exercitationem assumenda. Assumenda adipisci voluptate totam?
+                </p>
+            
+                <button type="button" class="btn btn-warning" id="liveToastBtn2">Enroll now</button>
+
+                <div class="toast align-items-center text-white bg-dark border-5 border-success position-fixed bottom-0 end-0 p-3 " style="z-index: 11;" role="alert" id="liveToast2"  aria-live="assertive" aria-atomic="true">
+                  <div class="d-flex">
+                    <div class="toast-body">
+                      <img src="icons/confirm.ico" style="width: 40px;margin: 0 0 0 -20px;" alt="">
+                      Hello, world! This is a toast message.
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="card my-card1" >
+              <img
+                src="images/event-images/Creative thinking-pana.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning">Creative Thinking</h5>
+                <p class="card-text">
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, amet veritatis vitae, sequi nemo tempore necessitatibus et vel iusto consectetur dignissimos quam voluptatibus dolorum magni soluta? Neque aut dolorem commodi!
+                </p>
+                <button type="button" class="btn btn-warning " id="liveToastBtn3">Enroll now</button>
+
+                <div class="toast align-items-center text-white bg-dark border-5 border-warning position-fixed bottom-0 end-0 p-2  m-3 mx-3 " style="z-index: 11;" role="alert" id="liveToast3"  aria-live="assertive" aria-atomic="true">
+                  <div class="d-flex">
+                    <div class="toast-body">
+                      <img src="icons/confirm.ico" style="width: 40px;margin: 0 0 0 -20px;" alt="">
+                      Your Enrollment is confirmed!
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="aboutus " id="about">
+          <h1 class="text text-light text-center">About Us</h1>
+          <hr class="hr2">
+        <div class="accordion container acrd" id="accordionExample">
+            <div class="accordion-item bg-dark text-light">
+              <h2 class="accordion-header " id="headingOne">
+                <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Motto
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ad repellendus facere a praesentium rerum.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-dark text-light">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Vision
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium eius veniam, necessitatibus rem ipsum.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-dark text-light">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Infrastructure
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis possimus tempore perferendis doloremque atque.
+                </div>
+              </div>
+
+              <div class="accordion-item bg-dark text-light">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Carrer opportunities
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis possimus tempore perferendis doloremque atque.
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+      </section>
+
+      <section class="contactus " id="contact">
+        <h1 class="text-dark pt-5 text-center text ">
+            Contact Us
+          </h1>
+          <hr class="hr3"/>
+      
+            <div class="container address d-flex justify-content-sm-between">
+              <div class="address1">
+            <p> <strong> Sai Vidya Institute of Technology </strong> <br> <span>Learn to Lead</span>
+              <br>
+            Rajanukunte, Via Yalahanka,<br>
+            Bengaluru, Karnataka 560 064<br>
+            India</p>
+            
+            <div>Tel: +91-80-28468191/96/97<br>
+            Fax: +91-80-28468193</div></div>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.9074214088137!2d77.55646146434785!3d13.168236890727078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae21e08de3c30f%3A0x508643e97dc5d012!2sSAI%20VIDYA%20INSTITUTE%20OF%20TECHNOLOGY%2C%20Rajanukunte%2C%20Karnataka%20560064!5e0!3m2!1sen!2sin!4v1632402686484!5m2!1sen!2sin"   style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+            
+      </section>
+      <footer class="container text-light text-center fs-5">
+     <p >Copyright  ©<span class="text-warning"> 2021,</span> Designed by <span class="text-warning">Rohith Venkatesh</span> </p> 
+    </footer>
+    </section>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>

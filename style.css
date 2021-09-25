@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    font-family: 'Righteous', cursive;
+}
+body{
+    background: black;
+}
+
+
+
+.department{
+    background-color: black;
+
+}
+
+.carousel-item img{
+    height: 47vw;
+}
+
+.card img{
+    width: 15vw;
+    margin-left: 4.3vw;
+    margin-top: 3vw;
+    border-radius: 1.3vw;
+}
+
+
+
+.my-card{
+    width: 400px !important;
+    margin-top: 30px !important;
+    background-color: black;
+    border: 0.3vw solid rgb(142, 172, 142); 
+    
+    border-radius: 1vw;
+    width: 25vw;
+
+}
+
+.hr1{
+    width: 19vw;
+    margin-left: 33vw ;
+    border: none;
+    background-color: white;
+}
+.hr2{
+    width: 9vw;
+    margin-left: 40vw ;
+    border: none;
+    background-color: white;
+}
+.hr3{
+    width: 9vw;
+    margin-left: 40vw ;
+    border: none;
+    background-color: black;
+}
+
+.hr4{
+    width: 5vw;
+    margin-left: 39vw ;
+    border: none;
+    background-color: white;
+}
+
+
+/* .card .my-card{
+    background-color: rgb(204, 96, 96);
+    border: 0.3vw solid rgb(142, 172, 142); 
+    
+    border-radius: 1vw;
+    width: 25vw;
+} */
+
+.my-card1{
+    border: 0.3vw solid rgb(225, 238, 112); 
+    width: 400px !important;
+    margin-top: 30px !important;
+    background-color: black;
+    border-radius: 1vw;
+    width: 25vw;
+}
+
+
+
+.aboutus{
+    background-color: black;
+    width: 90vw;
+    margin: 3.2vw 0 0 3.2vw;
+    border-radius: 3vw;
+}
+
+.acrd{
+    width: 60vw;
+
+}
+
+.accordion-button::after {
+    filter: invert(1);
+}
+
+.contactus{
+    background-color: #fff;
+    width: 90vw;
+    margin: 4vw 0 4vw 4vw;
+    border-radius: 3vw;
+}
+
+#liveAlertPlaceholder{
+    margin-top: 50px !important;
+}
+
+/* .contactus .address{
+    padding: 4.5vw;
+} */
+
+.maps{
+    width: 40vw;
+    height: 13vw;
+    align-items: flex-end;
+    border-radius: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+
+
+@media only screen  and (max-width: 450px){
+.hr1{
+    width: 50vw;
+    margin-left: 20vw;
+}
+
+.hr2{
+   width: 20vw;
+   margin-left: 35vw;
+}
+
+.hr3{
+    width: 20vw;
+    margin-left: 35vw;
+}
+
+.hr4{
+    width: 16vw;
+    margin-left: 37vw;
+
+}
+.maps{
+    height: 50vw;
+    margin-top: 7vw;
+}
+
+.carousel-item img{
+    height: 77vw;
+}
+
+.card img{
+    width: 40vw;
+    margin-left: 23vw;
+    margin-top: 3vw;
+    border-radius: 1.3vw;
+}
+
+}
